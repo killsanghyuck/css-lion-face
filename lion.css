@@ -1,0 +1,121 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.lion {
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 250px);
+}
+.face {    
+    position: absolute;
+    z-index: 10;
+    width: 500px;
+    height: 500px;
+    border: 10px solid;
+    border-radius: 500px;
+    background-color: rgb(211, 149, 64);
+}
+.ear-left {
+    position: absolute;
+    top: -5px;
+    left: 50px;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    border: 10px solid;
+    border-radius: 100px;
+    background-color: rgb(211, 149, 64);
+}
+.ear-right {
+    position: absolute;
+    top: -5px;
+    left: 345px;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    border: 10px solid;
+    border-radius: 100px;
+    background-color: rgb(211, 149, 64);
+}
+.eyebrow-left {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    width: 80px;
+    border-radius: 10px;
+    border: 9px solid black;
+}
+.eyebrow-right {
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    width: 80px;
+    border-radius: 10px;
+    border: 9px solid black;
+}
+.eyes-right {
+    position: absolute;
+    top: 200px;
+    right: 140px;
+    border-radius: 15px;
+    border: 15px solid black;
+}
+.eyes-left {
+    position: absolute;
+    top: 200px;
+    left: 140px;
+    border-radius: 15px;
+    border: 15px solid black;
+}
+.mouth {
+    position: absolute;
+    top: 270px;
+    left: 160px;
+    z-index: 1;
+    width: 90px;
+    height: 70px;
+    border: 10px solid;
+    border-radius: 100% 90% 100% 100%;
+    background-color: white;
+}
+.mouth2 {
+    position: absolute;
+    top: 270px;
+    right: 160px;
+    z-index: 1;
+    width: 90px;
+    height: 70px;
+    border: 10px solid;
+    border-radius: 90% 100% 100% 100%;
+    background-color: white;
+}
+.nose {
+    position: absolute;
+    z-index: 100;
+    top: 262px;
+    left: 232.5px;
+    height: 40px;
+    width: 35px;
+    border-radius: 100%;
+    background-color: black;
+}
+.nose2 {
+    position: absolute;
+    z-index: 100;
+    top: 262px;
+    left: 232.5px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: black;
+}
+.whitebox {
+    position: absolute;
+    z-index: 90;
+    top: 286px;
+    left: 220px;
+    width: 50px;
+    height: 57px;
+    background-color: white;
+}
