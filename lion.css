@@ -97,17 +97,7 @@ html, body {
     left: 232.5px;
     height: 40px;
     width: 35px;
-    border-radius: 100%;
-    background-color: black;
-}
-.nose2 {
-    position: absolute;
-    z-index: 100;
-    top: 262px;
-    left: 232.5px;
-    height: 35px;
-    width: 35px;
-    border-radius: 50%;
+    border-radius: 50%  50%  50%  50%  / 40%   40%   60%  60%;
     background-color: black;
 }
 .whitebox {
